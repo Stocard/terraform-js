@@ -1,0 +1,36 @@
+{
+  "name": "terraform-js",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "author": "Martin Wentzel <wentzel@stocard.de>",
+  "description": "A TypeScript/JavaScript wrapper around terraform and terragrunt",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint -c tslint.json 'test/**/*.ts' 'src/**/*.ts'",
+    "clean": "rm -rf dist",
+    "build": "yarn clean && tsc",
+    "test": "mocha --ui bdd --recursive --timeout 30000 --require ts-node/register \"test/**/*.ts\"",
+    "test:coverage": "nyc yarn test"
+  },
+  "keywords": [
+    "terraform",
+    "terragrunt"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/fs-extra": "^5.0.5",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "10.14.2",
+    "fs-extra": "^7.0.1",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.15.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.4.1"
+  },
+  "files": [
+    "dist/*"
+  ]
+}
