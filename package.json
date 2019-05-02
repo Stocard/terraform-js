@@ -1,5 +1,5 @@
 {
-  "name": "terraform-js",
+  "name": "js-terraform",
   "version": "0.0.1",
   "main": "dist/index.js",
   "author": "Martin Wentzel <wentzel@stocard.de>",

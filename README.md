@@ -1,6 +1,21 @@
-# TerraJS
+# JS-Terraform
 
 A TypeScript/JavaScript wrapper around Terraform and Terragrunt. Fully Promise-based.
+
+* [Installation](#installation)
+* [Terraform](#terraform)
+* [Terragrunt](#terragrunt)
+
+## Installation
+
+```sh
+$ npm install js-terraform
+```
+or
+
+```sh
+$ yarn add js-terraform
+```
 
 ## Terraform
 
