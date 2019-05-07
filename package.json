@@ -3,8 +3,16 @@
   "version": "0.0.1",
   "main": "dist/index.js",
   "author": "Martin Wentzel <wentzel@stocard.de>",
+  "homepage": "https://github.com/Stocard/terraform-js",
   "description": "A TypeScript/JavaScript wrapper around terraform and terragrunt",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stocard/terraform-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Stocard/terraform-js/issues"
+  },
   "scripts": {
     "lint": "tslint -c tslint.json 'test/**/*.ts' 'src/**/*.ts'",
     "clean": "rm -rf dist",
