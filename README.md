@@ -21,6 +21,7 @@ $ yarn add js-terraform
 
 Create a new `Terraform` instance:
 ```js
+const {Terraform} = require('js-terraform');
 const terraform = new Terraform()
 ```
 
